@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<script>
+    // lê o preco do produto
+    const valor = Number (prompt ("Valor do produto"))
+    // calcula valores à vista e das parcelas
+    const vista = valor - ( valor * 0.10)
+    // vista = preco *0.90
+    const parc = valor / 3
+    // exibe as respotas
+    alert (`À Vista R$: ${vista.toFixed(2)} \n Ou 3x de R$: ${parc.toFixed(2)}`)
+</script>

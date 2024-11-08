@@ -1,0 +1,19 @@
+body {
+    background-color: rgba(165, 42, 89, 0.348);
+    
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px; /*Espaco abaixo do título*/
+    color: rgb(157, 50, 86); /*Cor do título*/
+}
+
+form {
+    text-align: center;/*Centraliza o texto dentro do formulário*/
+    padding: 20px;
+    border: 1px solid; /*Adiciona uma borda ao formulário*/
+    border-radius: 10px;/*Deixa os cantos arredondados*/
+    background-color: antiquewhite;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);/*Adiciona uma sombra leve*/
+}

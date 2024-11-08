@@ -16,4 +16,28 @@ form {
     border-radius: 10px;/*Deixa os cantos arredondados*/
     background-color: antiquewhite;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);/*Adiciona uma sombra leve*/
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: darkmagenta;
+
 }
+
+form input[type="submit"] {
+    background-color: #7922459f; /* Cor de fundo verde */
+    border: 1px solid;
+    border-radius: 10px;
+    color: wheat;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;   
+     
+  }
+
+  h3 {
+    color: rgb(157, 50, 86);
+    text-align: center;
+  }
+  

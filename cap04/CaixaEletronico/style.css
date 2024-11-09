@@ -1,0 +1,33 @@
+body {
+    background-color: rgba(129, 129, 29, 0.649);
+    font-family: Arial, sans-serif;
+    text-align: center; /* Centraliza todo o conteúdo */
+}
+
+form {
+    background-color: blanchedalmond;
+    color: rgba(91, 67, 35, 0.721);
+    font-weight: bold;
+    margin: 30px auto; /* Margem superior e inferior, centralizado */
+    width: 300px; /* Largura máxima do formulário */
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgba(139, 78, 56, 0.855);
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: bisque;
+    margin-top: 10px;
+}
+
+input {
+    border-radius: 5px; 
+    padding: 10px 20px;
+}

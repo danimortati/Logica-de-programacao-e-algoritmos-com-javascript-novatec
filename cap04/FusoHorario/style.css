@@ -1,0 +1,36 @@
+body {
+    background-color: rgba(165, 42, 89, 0.348);
+    
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px; /*Espaco abaixo do título*/
+    color: rgb(157, 50, 86); /*Cor do título*/
+}
+
+.container {
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#btnFuso {
+    /* Estilos para o botão */
+    background-color:  rgba(165, 42, 89, 0.348); /* Cor de fundo */
+    color: white; /* Cor do texto */
+    padding: 10px 15px; /* Padding interno */
+    text-align: center; /* Alinhamento do texto */
+    text-decoration: none; /* Remover decoração de link */
+    display: inline-block; /* Exibir como bloco inline */
+    font-size: 14px; /* Tamanho da fonte */
+    margin: 4px 2px; /* Margens */
+    margin-left: 40px;
+    cursor: pointer; /* Mudar o cursor ao passar o mouse */
+    border: none; /* Remover borda */
+    border-radius: 5px; /* Bordas arredondadas */
+  }
+

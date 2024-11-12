@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Permanent+Marker&display=swap');
+
+body {
+    background-color: rgba(95, 158, 160, 0.704);
+}
+
+h1 {
+    font-family: "Anton SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(165, 42, 42, 0.679);
+    text-decoration: underline rgba(165, 42, 42, 0.411);
+    text-align: center;
+}
+
+form {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgba(42, 10, 10, 0.515);
+    text-align: center;
+
+}
+
+.botao {
+    background-color: azure;
+    color:rgba(165, 42, 42, 0.679);
+    font-weight: bold;
+    border: 2px solid;
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+
+pre {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgba(0, 0, 0, 0.647);
+    text-align: center;
+}
+

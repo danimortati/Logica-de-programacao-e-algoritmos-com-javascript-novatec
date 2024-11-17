@@ -1,0 +1,60 @@
+    /* Centraliza o conteúdo na tela */
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #f0f8ff; /* Fundo claro */
+    }
+
+    /* Estilo do título */
+    h1 {
+        margin-bottom: 20px;
+        color: #333;
+    }
+
+    /* Bloco do formulário */
+    form {
+        background-color: #ffefd5; /* Cor de fundo do bloco */
+        padding: 20px;
+        border-radius: 10px; /* Bordas arredondadas */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para destaque */
+        width: 300px; /* Largura do formulário */
+        text-align: center; /* Centraliza o conteúdo interno */
+    }
+
+    /* Estilo dos inputs */
+    input[type="text"],
+    input[type="number"] {
+        width: 90%;
+        padding: 8px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    /* Botão de submit */
+    input[type="submit"] {
+        background-color: #4682b4; /* Azul */
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #315f7d; /* Azul mais escuro */
+    }
+
+    /* Resultado da fruta */
+    .outFruta {
+        margin-top: 20px;
+        font-size: 18px;
+        color: #444;
+    }
+
+

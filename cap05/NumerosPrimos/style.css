@@ -1,0 +1,61 @@
+/* Estilos gerais da página */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f3e1f5; /* cor de fundo suave em tons de rosa */
+}
+
+/* Estilo do formulário */
+form {
+    background-color: #ffffff; /* fundo branco */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* sombra suave */
+    text-align: center;
+    width: 300px;
+}
+
+/* Estilo do título */
+h1 {
+    font-size: 24px;
+    color: #d13c9b; /* cor rosa para o título */
+    margin-bottom: 20px;
+}
+
+/* Estilo do campo de número */
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #d13c9b; /* borda rosa */
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Estilo do botão */
+input[type="submit"] {
+    background-color: #d13c9b; /* fundo rosa */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Efeito de hover no botão */
+input[type="submit"]:hover {
+    background-color: #a12a74; /* cor mais escura para o efeito de hover */
+}
+
+/* Estilo para o resultado */
+h3 {
+    font-size: 18px;
+    color: #d13c9b;
+    margin-top: 20px;
+}

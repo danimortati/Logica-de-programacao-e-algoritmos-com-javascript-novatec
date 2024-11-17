@@ -1,0 +1,71 @@
+/* Centraliza o conteúdo da página */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffe6f2; /* Fundo rosa claro */
+}
+
+/* Estiliza o container do formulário */
+.container {
+    background-color: #ffcce6; /* Caixa rosa */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para destacar */
+    text-align: center;
+    width: 300px; /* Define a largura da caixa */
+}
+
+/* Estiliza o título */
+h1 {
+    color: #b30059; /* Rosa escuro */
+    margin-bottom: 20px;
+}
+
+/* Estiliza os rótulos */
+label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #99004d; /* Rosa intermediário */
+}
+
+/* Estiliza os campos de entrada */
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #e68a9e; /* Borda rosa claro */
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Estiliza o botão */
+input[type="button"] {
+    background-color: #ff66b3; /* Rosa vibrante */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="button"]:hover {
+    background-color: #e60073; /* Rosa escuro ao passar o mouse */
+}
+
+/* Estiliza o espaço para a previsão */
+pre {
+    background-color: #ffe6f2; /* Fundo claro para o texto */
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ffcce6;
+    margin-top: 15px;
+    white-space: pre-line; /* Permite quebras de linha */
+    color: #b30059; /* Rosa escuro */
+}

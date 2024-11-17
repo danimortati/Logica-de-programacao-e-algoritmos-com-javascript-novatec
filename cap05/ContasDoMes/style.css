@@ -1,48 +1,72 @@
+/* Centralizar conteúdo na página */
 body {
-    background-color: #84DB90;
-}
-
-h1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: grey;
-    text-align: center;
-    text-decoration: underline;
-    
-}
-
-form {
-    color: brown;
-    background-color: #D2DBBE;
-    text-align: center;
-    margin: 40px auto;
-    margin-top: 40px;
-    padding: 20px;
-    margin: 30px;
-    border-radius: 15px;
-    border-top-left-radius: 3em;
-    border-top-right-radius: 3em;
-    width: 200px;
+    margin: 0;
+    padding: 0;
+    display: flex;
     justify-content: center;
-    margin: 40px auto;
-    
+    align-items: center;
+    height: 100vh; /* Ocupa toda a altura da janela */
+    background-color: #f5e6fa; /* Fundo lilás claro */
+    font-family: Arial, sans-serif;
 }
 
-pre {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
+/* Caixa do formulário */
+form {
+    background-color: #ffffff; /* Fundo branco */
+    border: 2px solid #6a0dad; /* Borda roxa */
+    border-radius: 10px; /* Bordas arredondadas */
+    padding: 20px 30px; /* Espaçamento interno */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Sombra */
+    text-align: center; /* Centraliza o conteúdo */
+    width: 300px; /* Largura fixa */
 }
 
-input {
-   background-color: burlywood;
-   border-radius: 3vh;
-   border-color: bisque;
-}
-
-#botao {
-    
-    background-color: bisque;
+/* Estilo dos campos de entrada */
+input[type="text"],
+input[type="number"] {
+    width: 90%; /* Largura ajustada */
+    padding: 10px;
+    margin-bottom: 15px; /* Espaçamento entre os campos */
+    border: 1px solid #ccc;
     border-radius: 5px;
-    color: rgb(93, 33, 33);
-    border-radius: 10px;
-    padding: 5px 10px;
+    font-size: 16px;
+}
+
+/* Estilo do botão */
+input[type="submit"] {
+    background-color: #6a0dad; /* Fundo roxo */
+    color: #ffffff; /* Texto branco */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Efeito hover no botão */
+input[type="submit"]:hover {
+    background-color: #450a63; /* Roxo mais escuro */
+}
+
+/* Estilo para as respostas abaixo do formulário */
+#outResp1,
+#outResp2 {
+    background-color: #ffffff; /* Fundo branco */
+    color: #6a0dad; /* Texto roxo */
+    border: 1px solid #6a0dad; /* Borda roxa */
+    border-radius: 5px; /* Bordas arredondadas */
+    padding: 10px;
+    margin-top: 10px; /* Espaçamento acima */
+    width: 300px; /* Largura fixa */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Ajuste responsivo para telas menores */
+@media (max-width: 400px) {
+    form, #outResp1, #outResp2 {
+        width: 90%; /* Adapta a largura para dispositivos pequenos */
+    }
 }

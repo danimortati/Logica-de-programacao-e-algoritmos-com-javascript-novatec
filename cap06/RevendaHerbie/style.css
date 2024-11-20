@@ -1,0 +1,78 @@
+/* Define o estilo global para centralizar tudo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffe6f0; /* Rosa claro */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    flex-direction: column; /* Organiza o container e a lista em coluna */
+    height: 100vh; /* Usa toda a altura da tela */
+}
+
+/* Estilo para o container */
+.container {
+    background-color: #fff0f5; /* Fundo rosa claro */
+    border: 2px solid #ff66a3; /* Rosa escuro */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+    margin-bottom: 20px; /* Espaçamento entre o container e a lista */
+}
+
+/* Estilo para o título */
+.container h1 {
+    color: #ff66a3; /* Rosa escuro */
+    margin-bottom: 20px;
+}
+
+/* Estilo para inputs e labels */
+.container div {
+    margin-bottom: 15px;
+}
+
+.container label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #ff4081; /* Rosa médio */
+}
+
+.container input[type="text"] {
+    width: 90%;
+    padding: 8px;
+    border: 1px solid #ff99cc; /* Rosa claro */
+    border-radius: 5px;
+}
+
+/* Botões estilizados */
+.container input[type="button"] {
+    background-color: #ff66a3; /* Rosa escuro */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+.container input[type="button"]:hover {
+    background-color: #ff4081; /* Rosa médio */
+}
+
+/* Estilo para o pre */
+#outLista {
+    background-color: #ffe6f0; /* Rosa muito claro */
+    border: 1px solid #ff66a3; /* Rosa escuro */
+    border-radius: 5px;
+    padding: 10px;
+    width: 280px; /* Mesmo tamanho do container */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    white-space: pre-wrap; /* Permite quebra de linha */
+    text-align: left; /* Alinhamento do texto */
+}

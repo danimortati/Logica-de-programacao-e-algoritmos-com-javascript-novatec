@@ -1,0 +1,72 @@
+/* Estilo global */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff3cd; /* Amarelo suave */
+    color: #b68973; /* Marrom amarelado */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Usa toda a altura da tela */
+}
+
+/* Estilo do container */
+.container {
+    background-color: #ffe4e9; /* Rosa claro */
+    border: 2px solid #ffc1cc; /* Rosa suave */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    text-align: center;
+}
+
+/* Título */
+.container h1 {
+    color: #b68973; /* Marrom amarelado */
+    margin-bottom: 20px;
+}
+
+/* Estilo das divs internas */
+.container div {
+    margin-bottom: 15px;
+}
+
+/* Labels */
+.container label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #b68973; /* Marrom amarelado */
+}
+
+/* Inputs de texto */
+.container input[type="text"] {
+    width: 95%;
+    padding: 8px;
+    border: 1px solid #ffc1cc; /* Rosa suave */
+    border-radius: 5px;
+    outline: none;
+}
+
+/* Botões */
+.container input[type="button"] {
+    background-color: #ffeaa7; /* Amarelo claro */
+    color: #b68973; /* Texto marrom amarelado */
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px 0;
+    font-weight: bold;
+    width: 100%;
+}
+
+.container input[type="button"]:hover {
+    background-color: #ffc1cc; /* Rosa suave */
+}
+
+
+
+

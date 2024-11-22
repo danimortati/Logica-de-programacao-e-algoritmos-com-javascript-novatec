@@ -1,0 +1,91 @@
+/* Centraliza o container na página */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #144f8eb5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 300px;
+}
+
+/* Título */
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Estilo do input de texto */
+input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Estilo dos botões */
+input[type="button"] {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+/* Botão Adicionar - Azul */
+#btnAdicionar {
+    background-color: #007BFF;
+}
+
+#btnAdicionar:hover {
+    background-color: #0056b3;
+}
+
+/* Botão Listar - Verde */
+#btnListar {
+    background-color: #28A745;
+}
+
+#btnListar:hover {
+    background-color: #1e7e34;
+}
+
+/* Botão Mostrar Tabela - Amarelo */
+#btnTabela {
+    background-color: #FFC107;
+    color: #333;
+}
+
+#btnTabela:hover {
+    background-color: #e0a800;
+}
+
+/* Estilo da área de saída */
+pre {
+    text-align: left;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    overflow-x: auto;
+    max-height: 200px;
+    color: #333;
+}
+

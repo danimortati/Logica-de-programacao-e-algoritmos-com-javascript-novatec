@@ -1,0 +1,68 @@
+/* Estilo global */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #3a1a4a8f; 
+    color: #613722ae; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Usa toda a altura da tela */
+}
+
+/* Estilo do container */
+.container {
+    background-color: #ffe4e9; 
+    border: 2px solid #ffc1cc; 
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    text-align: center;
+}
+
+/* Título */
+.container h1 {
+    color: #b68973; 
+    margin-bottom: 20px;
+}
+
+/* Estilo das divs internas */
+.container div {
+    margin-bottom: 15px;
+}
+
+/* Labels */
+.container label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #b68973; 
+}
+
+/* Inputs de texto */
+.container input[type="text"] {
+    width: 95%;
+    padding: 8px;
+    border: 1px solid #ffc1cc; 
+    border-radius: 5px;
+    outline: none;
+}
+
+/* Botões */
+.container input[type="button"] {
+    background-color: #af53a4bf; 
+    color: #efdfd7; 
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px 0;
+    font-weight: bold;
+    width: 100%;
+}
+
+.container input[type="button"]:hover {
+    background-color: #3a1a4a8f; /* Rosa suave */
+}

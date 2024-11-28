@@ -1,11 +1,11 @@
-const frm = document.querySelector("form"); 
+const frm = document.querySelector("form");
 const resp = document.querySelector("h3");
 
-frm.addEventListener ("submit", (e) => {
+frm.addEventListener("submit", (e) => {
     e.preventDefault();
     const nome = frm.inNome.value.trim(); //obtém o nome informado e retira espaços em branco do início e final da string
 
-    if (!nome.includes(" ")){ //se o nome não (!) possuir espaço
+    if (!nome.includes(" ")) { //se o nome não (!) possuir espaço
         alert("Informe o nome completo...");
         return;
     }

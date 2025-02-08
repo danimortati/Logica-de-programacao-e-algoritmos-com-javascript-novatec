@@ -1,39 +1,92 @@
-h1 {
-  border-bottom-style: inset;
+/* Estilo geral */
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #b3e5fc; /* Azul bebê */
+  font-family: Arial, sans-serif;
 }
-pre {
-  font-size: 1.2em;
-}
-img.normal {
-  float: left;
-  height: 300px;
-  width: 300px;
-}
-img.alta {
-  float: left;
-  height: 420px;
-  width: 300px;
-}
-img.exerc {
-  float: left;
-  height: 260px;
-  width: 260px;
-}
-span {
-  margin-left: 70px;
-}
-select {
+
+/* Imagem arredondada */
+.exerc {
   width: 150px;
+  height: 150px;
+  border-radius: 50%; /* Torna a imagem circular */
+  object-fit: cover; /* Garante que a imagem fique bem ajustada */
+  margin-bottom: 10px;
 }
-.detalhes {
-  width: 380px;
+
+/* Título */
+h1 {
+  color: #ff80ab; /* Rosa */
+  font-size: 2rem;
+  text-align: center;
 }
-.oculta {
-  display: none;
+
+/* Estilização do formulário */
+form {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Adiciona espaçamento entre os elementos */
 }
-.exibe {
-  display: inline;
+
+/* Agrupando os inputs para melhor alinhamento */
+p {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+  
 }
-.exibe-linha {
-  display: block;
-} /* para exibir no último exercício, o parágrafo em uma linha */
+
+/* Campos de entrada */
+input[type="text"],
+input[type="number"] {
+  width: 95%;
+  padding: 5px;
+  border: 2px solid #ff80ab; /* Rosa */
+  border-radius: 5px;
+  outline: none;
+  font-size: 1rem;
+}
+
+/* Botão estilizado */
+input[type="submit"] {
+  background-color: #ff80ab; /* Rosa */
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  width: 100%;
+  transition: 0.3s;
+}
+
+/* Efeito no hover do botão */
+input[type="submit"]:hover {
+  background-color: #f06292; /* Um tom mais forte de rosa */
+}
+
+/* Saída do resultado */
+pre {
+  background: white;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-size: 1rem;
+  text-align: center;
+  width: 300px;
+  color: #333;
+}
+
